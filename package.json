@@ -8,6 +8,7 @@
     "eslint": "eslint src",
     "eslint:fix": "eslint src --fix",
     "start": "webpack-dev-server --open --hot --config webpack.dev.js",
+    "stylelint": "stylelint scss css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sonu Kumar Singh",
@@ -28,6 +29,8 @@
     "sass": "^1.26.7",
     "sass-loader": "^8.0.2",
     "style-loader": "^1.2.1",
+    "stylelint": "^13.5.0",
+    "stylelint-config-standard": "^20.0.0",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.11.0",
