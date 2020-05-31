@@ -1,0 +1,11 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "comma-dangle": "off",
+    "eol-last": "off",
+    "import/prefer-default-export": "off",
+    "linebreak-style": "off",
+    "react/jsx-filename-extension": "off",
+    "react/jsx-tag-spacing": "off"
+  }
+}
