@@ -1,13 +1,16 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
 import _ from 'lodash';
 import '../scss/styles.scss';
 import '../css/styles.css';
 
-const component = () => {
-    const element = document.createElement('div');
+export const init = () => {
+    const message = _.join(['Hello', 'webpack'], ' ');
 
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-
-    return element;
+    ReactDOM.render(
+        <div>{message}</div>,
+        document.getElementById('root')
+    );
 };
 
-document.body.appendChild(component());
+init();
